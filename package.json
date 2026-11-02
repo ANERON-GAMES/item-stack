@@ -1,0 +1,43 @@
+{
+  "name": "@aneron/item-stack",
+  "version": "1.0.0",
+  "description": "Merge and split inventory stacks with a limit per item, and report what did not fit.",
+  "license": "MIT",
+  "author": "Vadim Gubin",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANERON-GAMES/item-stack.git"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "inventory",
+    "items",
+    "stack",
+    "merge",
+    "split"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.12.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10"
+  }
+}
